@@ -1,0 +1,101 @@
+/*!
+ * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.textInSlider
+{
+    padding-top:0px;
+}
+
+.h1InSlider
+{
+    padding-top: 50px;
+}
+
+.logo
+{
+    max-width:140px;
+}
+
+.topNav
+{
+    background-color: #585858;
+    border-color:  #585858;
+}
+
+.sections
+{
+    color: white;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.bg-groups 
+{
+    background-color: #f05f40;
+}
+
+.bg-childGroups 
+{
+    background-color: #686868;
+}
+
+.bg-primary 
+{
+    background-color: #C0C0C0;
+}
+
+hr {
+    max-width: 50px;
+    border-color: #f05f40;
+    border-width: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    height: 0;
+}
+
+@media (min-width: 768px)
+{
+    .navbar-nav > li > a 
+    {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
