@@ -13,18 +13,10 @@
     <title>Klaustur Off Road Challenge</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link href="css/full-slider.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,166 +29,271 @@
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+    <!-- Navigation -->
+    <nav class="topNav navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand page-scroll isl" href="#page-top">Forsíða</a>
-                <a class="navbar-brand page-scroll all-hidden eng" href="#page-top">Home</a>
-                <a class="navbar-brand page-scroll isl" href="#about">Keppnin</a>
-                <a class="navbar-brand page-scroll all-hidden eng" href="#about">Competition</a>
-                <a class="navbar-brand page-scroll isl" href="#services">Flokkar</a>
-                <a class="navbar-brand page-scroll all-hidden eng" href="#services">Groups</a>
-                <a class="navbar-brand page-scroll" href="#portfolio">Feed</a>
-                <button type="button" class="btn btn-xs btn-info island" id="language">English</button>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="col-xs-6"><a class="" href="#page-top"><img class="logo" src="image/whiteBigLogo.jpg" alt="Responsive image"></a></div>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <h4><a class="sections" href="#about">KEPPNIN</a></h4>
+                    </li>
+                    <li>
+                        <h4><a class="sections" href="#groups">FLOKKAR</a></h4>
+                    </li>
+                    <li>
+                        <h4><a class="sections" href="#instagram">INSTAGRAM</a></h4>
+                    </li>
+                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.container -->
     </nav>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>Klaustur Off Road Challenge</h1>
-                <hr>
+    <!-- Full Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-                <div class="breakLine col-md-6">
-                <span class="isl countdownLabel label label-default">Skráningu líkur eftir:</span>
-                <span class="eng all-hidden countdownLabel label label-default">Last day of registration is after:</span>
-                </br>
-                    <div id="registrationClock">
-                        <div>
-                            <span class="days"></span>
-                            <div class="isl smalltext">Dagur</div>
-                            <div class="eng all-hidden smalltext">Days</div>
-                        </div>
-                        <div>
-                            <span class="hours"></span>
-                            <div class="isl smalltext">Tímar</div>
-                            <div class="eng all-hidden smalltext">Hours</div>
-                            </div>
-                        <div>
-                            <span class="minutes"></span>
-                            <div class="isl smalltext">Mínútur</div>
-                            <div class="eng all-hidden smalltext">Minutes</div>
-                        </div>
-                        <div>
-                            <span class="seconds"></span>
-                            <div class="isl smalltext">Sekúndur</div>
-                            <div class="eng all-hidden smalltext">Seconds</div>
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('image/DSCF9508.jpg');"> 
+                    <div class="row">
+                        <div class="col-md-3 col-md-offset-2">
+                            <h1 class="h1InSlider">Klaustur Off Road Challenge</h1>
                         </div>
                     </div>
-                    <span class="isl countdownLabel label label-default">24 Maí 2016 00:00 GMT</span>
-                    <span class="eng all-hidden countdownLabel label label-default">24 May 2016 00:00 GMT</span>
+                    <div class="row">
+                        <div class="textInSlider col-md-4 col-md-offset-2">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </div>
+                    </div>
                 </div>
-                
-                <div class="col-md-6">
-                    <span class="isl countdownLabel label label-default">Keppni hefst eftir:</span>
-                    <span class="eng all-hidden countdownLabel label label-default">Race starts after:</span>
-                    </br>
-                    <div id="raceClock">
-                        <div>
-                            <span class="days"></span>
-                            <div class="isl smalltext">Dagur</div>
-                            <div class="eng all-hidden smalltext">Days</div>
-                        </div>
-                        <div>
-                            <span class="hours"></span>
-                            <div class="isl smalltext">Tímar</div>
-                            <div class="eng all-hidden smalltext">Hours</div>
-                            </div>
-                        <div>
-                            <span class="minutes"></span>
-                            <div class="isl smalltext">Mínútur</div>
-                            <div class="eng all-hidden smalltext">Minutes</div>
-                        </div>
-                        <div>
-                            <span class="seconds"></span>
-                            <div class="isl smalltext">Sekúndur</div>
-                            <div class="eng all-hidden smalltext">Seconds</div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('image/DSC_4172.jpg');">
+                    <div class="row">
+                        <div class="col-md-3 col-md-offset-2">
+                            <h1 class="h1InSlider">Klaustur Off Road Challenge</h1>
                         </div>
                     </div>
-                    <span class="isl countdownLabel label label-default">28 Maí 2016 12:00 GMT</span>
-                    <span class="eng all-hidden countdownLabel label label-default">28 May 2016 12:00 GMT</span>
+                    <div class="row">
+                        <div class="textInSlider col-md-4 col-md-offset-2">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('image/DSC_4709.jpg');">
+                    <div class="row">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-3 col-md-offset-2">
+                            <h1 class="h1InSlider">Klaustur Off Road Challenge</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6"></div>
+                        <div class="textInSlider col-md-4 col-md-offset-2">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
                 </div>
             </div>
         </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
     </header>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
-                    <hr class="light">
-                    <p class="text-faded">Klaustur off road challenge er enduro keppni sem fer fram á Kirkjubæjarklaustri þann 28 maí 2016</p>
-                    <a href="#" class="btn btn-default btn-xl">Get Started!</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services">
+    <section class="countdown">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary">
+                    <h2 class="">Skráningu líkur eftir:</h2>
                 </div>
             </div>
-        </div>
-        <div class="container">
+            <hr class="primary">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                <div id="registrationClock">
+                    <div class="col-md-3 text-center">
+                        <h1 class="days"></h1>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <h1 class="hours"></h1>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <h1 class="minutes"></h1>
+                    </div>
+                    <div class="col-md-3 text-center" >
+                        <h1 class="seconds"></h1>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-                    </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <h4>Dagar</h4>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
-                    </div>
+                <div class="col-md-3 text-center">
+                    <h4>Tímar</h4>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
-                    </div>
+                <div class="col-md-3 text-center">
+                    <h4>Mínútur</h4>
+                </div>
+                <div class="col-md-3 text-center" >
+                    <h4>Sekúndur</h4>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
-        <div class="col-md-4">
-            <div class="embed-responsive embed-responsive-4by3">
-                <iframe class="embed-responsive-item" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fklausturoffroadchallenge&width=480&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=500"></iframe>
+    <!-- Page Content -->
+    <section class="bg-primary" id="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                <h1>Keppnin</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate ipsum sollicitudin enim bibendum, vel finibus mauris venenatis. Mauris vulputate, eros vel pharetra euismod, ante augue ultricies tellus, id dictum lectus velit vitae tellus. Aliquam massa nisi, pretium sed bibendum et, vestibulum non tellus. Donec nec lacus lorem. Cras sed orci lobortis orci sagittis sodales ut quis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo, enim id finibus fringilla, nibh elit aliquam ex, sed lobortis lorem diam a velit. Sed varius, enim sollicitudin malesuada blandit, augue libero maximus metus, sed auctor libero est non metus. Fusce tempor varius ante, non congue justo.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- /.container -->
+
+    <section class="bg-groups" id="groups">
+        <div class="container">
+            <div class="row">
+                <p>Eftirfarandi flokkar eru í boði í Klaustur Off-Road Challenge. Vinsamlegast athugið að minnsta leyfða
+
+vélastærð er 122 rúmsentimetrar/cc tvígengis og fjórgengis og stærsta leyfða vélarstærð er 650
+
+rúmsentimetrar/cc tvígengis og fjórgengis. Stærð afturdekks verður að vera 18 eða 19 tommur og
+
+framdekk verður að vera 21 tomma. Lágmarksaldur í flesta flokka er fjórtán ára og er miðað við
+
+afmælisdaginn. Nokkrir flokkar hafa þó hærri aldurstakmarkanir.
+
+Járnkarlinn. Harðasti flokkurinn. 1 keppandi – 1 eða 2 hjól – Verðlaun fyrir 1., 2. og 3. sæti Hér eru veitt
+
+sérverðlaun fyrir 1. sætið innan flokksins fyrir “Járnkonuna“.
+
+Tvímenningur. Vinsælasti flokkurinn. 2 keppendur – 1 eða 2 hjól – verðlaun fyrir 1., 2. og 3. sæti.
+
+Kvennaflokkur. Bara fyrir stelpurnar. 2 eða 3 keppendur – 1 til 3 hjól – verðlaun fyrir 1., 2. og 3. sæti
+
+Þrímenningur. 3 keppendur – 1 til 3 hjól – Verðlaun fyrir 1., 2. og 3. sæti
+
+Afkvæmaflokkur. Foreldri og barn (14+). 2 keppendur – 1 eða 2 hjól – Verðlaun fyrir 1., 2. og 3. sæti
+
+Para-/hjónaflokkur. Hjón eða par. 2 keppendur – 1 eða 2 hjól – Verðlaun fyrir 1., 2. og 3. sæti
+
+90+ flokkur. Samanlagður aldur keppenda skal vera yfir 90 árum og yngri keppandinn verður að hafa náð
+
+35 ára aldri. Dagurinn gildir. – 2 keppendur – 1 eða 2 hjól – Verðlaun fyrir 1. sæti
+
+135+ flokkur. Samanlagður aldur keppenda skal vera yfir 135 árum og yngsti keppandinn verður að hafa
+
+náð 35 ára aldri. Dagurinn gildir. – 3 keppendur – 1 eða 2 hjól – Verðlaun fyrir 1. sæti
+
+100+ flokkur. Samanlagður aldur keppenda skal vera yfir 100 árum og yngri keppandinn verður að hafa
+
+náð 50 ára aldri. Dagurinn gildir. – 2 keppendur – 1 eða 2 hjól – Verðlaun fyrir 1. sæti
+
+150+ flokkur. Samanlagður aldur keppenda skal vera yfir 150 árum og yngsti keppandinn verður að hafa
+
+náð 50 ára aldri. Dagurinn gildir. – 2 keppendur – 1 eða 2 hjól – Verðlaun fyrir 1. sæti
+
+Hjól verða að vera skráð og tryggð. Keppandi sem misst hefur ökuréttindi hefur réttindi til þess að taka
+
+þátt í keppninni.
+
+</p>
+            </div>        
+        </div>
+    </section>
+
+    <section class="bg-childGroups" id="childGroups">
+        <div class="container">
+            <div class="row">
+                Barnakeppni:
+
+8-9 ára. 10-11 ára. 12-13 ára. Árið gildir.
+
+Hjólastærð 50 – 125 cc. 2-stroke 50-150 cc 4-stroke
+
+Öll börn eru á ábyrgð foreldra.
+
+Skráning á guggi@ernir.is og á staðnum
+
+Mæting 9:00
+
+Prufuhringur 9:20
+
+Keppni hefst 10:00
+
+Útflöggun 10:30
+
+Verðlaun 10:50
             </div>
         </div>
+    </section>
 
-        <div class="col-md-4">
-            <a class="twitter-timeline" href="https://twitter.com/KlausturOffRoad" data-widget-id="716737585087979520">Tweets by @KlausturOffRoad</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>       
+    <section id="instagram">
+        <div class="container">
+            <div class="col-md-4">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fklausturoffroadchallenge&width=480&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=500"></iframe>
+                </div>
+            </div>
 
-        <div class="col-md-4">
-            <!-- SnapWidget -->
-            <script src="http://snapwidget.com/js/snapwidget.js"></script>
-            <iframe src="http://snapwidget.com/in/?u=a2xhdXN0dXJvZmZyb2FkfGlufDEyNXwyfDN8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3x5ZXM=&ve=030416" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
-        </div>    
+            <div class="col-md-4">
+                <a class="twitter-timeline" href="https://twitter.com/KlausturOffRoad" data-widget-id="716737585087979520">Tweets by @KlausturOffRoad</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>       
+
+            <div class="col-md-4">
+                <!-- SnapWidget -->
+                <script src="http://snapwidget.com/js/snapwidget.js"></script>
+                <iframe src="http://snapwidget.com/in/?u=a2xhdXN0dXJvZmZyb2FkfGlufDEyNXwyfDN8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3x5ZXM=&ve=030416" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+            </div>
+        </div>
     </section>
 
     <!-- jQuery -->
@@ -205,13 +302,13 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
     <script src="js/javascript.js"></script>
 
 </body>
