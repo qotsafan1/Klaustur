@@ -52,8 +52,9 @@ footer {
 
 .topNav
 {
-    background-color: #585858;
-    border-color:  #585858;
+    background-color: #505050;
+    border-style: none;
+    
 }
 
 .sections
@@ -89,6 +90,12 @@ hr {
     border: 0;
     border-top: 1px solid #eee;
     height: 0;
+}
+
+.single-group
+{
+    border: 2px solid black;
+    margin:10px;
 }
 
 @media (min-width: 768px)
