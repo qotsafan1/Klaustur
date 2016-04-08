@@ -7,6 +7,7 @@
 html,
 body {
     height: 100%;
+    font-family: 'Lato', 'arial', 'sans-serif';
 }
 
 .carousel,
@@ -69,6 +70,7 @@ footer {
 .bg-groups 
 {
     background-color: #f05f40;
+    color: white;
 }
 
 .bg-childGroups 
@@ -94,8 +96,14 @@ hr {
 
 .single-group
 {
-    border: 2px solid black;
+    border: 2px solid white;
     margin:10px;
+    min-height: 200px
+}
+
+section.countdown
+{
+    min-height: 300px;
 }
 
 @media (min-width: 768px)
@@ -104,5 +112,13 @@ hr {
     {
         padding-top: 15px;
         padding-bottom: 15px;
+    }
+}
+
+@media (min-width: 500px)
+{
+    .marginMain
+    {
+        margin-left: 5px;
     }
 }
