@@ -106,6 +106,16 @@ section.countdown
     min-height: 300px;
 }
 
+section#sponsors
+{
+    background-color: #a9842f;
+}
+
+img.sponsor
+{
+    max-width: 200px;
+}
+
 @media (min-width: 768px)
 {
     .navbar-nav > li > a 
