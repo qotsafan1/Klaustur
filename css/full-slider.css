@@ -114,6 +114,7 @@ section#sponsors
 img.sponsor
 {
     max-width: 120px;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 768px)
