@@ -115,6 +115,11 @@ hr {
     border-top: 2px solid red;
 }
 
+.sponsor-label
+{
+    color: white;
+}
+
 section.countdown
 {
     min-height: 300px;
@@ -122,7 +127,7 @@ section.countdown
 
 section#sponsors
 {
-    background-color: #a9842f;
+    background-color: #505050;
 }
 
 img.sponsor
@@ -139,6 +144,11 @@ img.sponsor
         border-top: 2px solid red;
         border-right: 2px solid red;
     } 
+
+    .bottom-group
+    {
+        border-bottom: 2px solid red;
+    }
 }
 
 @media (min-width: 768px)
