@@ -69,7 +69,7 @@ footer {
 
 .bg-groups 
 {
-    background-color: #f05f40;
+    background-color: black;
     color: white;
 }
 
@@ -95,11 +95,24 @@ hr {
     height: 0;
 }
 
+.para-hjon
+{
+    font-size: 18px;
+}
+
+.right-group
+{
+    border-right: 2px solid red;
+}
+
 .single-group
 {
-    border: 2px solid white;
-    margin:10px;
     min-height: 200px
+}
+
+.low-group
+{
+    border-top: 2px solid red;
 }
 
 section.countdown
@@ -116,6 +129,16 @@ img.sponsor
 {
     max-width: 120px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 991px)
+{
+    .single-group
+    {
+        border-left: 2px solid red;
+        border-top: 2px solid red;
+        border-right: 2px solid red;
+    } 
 }
 
 @media (min-width: 768px)
