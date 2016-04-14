@@ -43,7 +43,12 @@ footer {
 
 .h1InSlider
 {
-    padding-top: 50px;
+    background-color: white;
+}
+
+.margeInSlider
+{
+    padding-top: 80px;
 }
 
 .comp-text
@@ -53,12 +58,12 @@ footer {
 
 .comp-line
 {
-    border-top: 1px solid red; important! 
+    border-top: 1px solid red; 
 }
 
 .instagram
 {
-    background-color: black;
+    background-color: white;
 }
 
 .logo
@@ -84,19 +89,19 @@ footer {
 
 .bg-groups 
 {
-    background-color: black;
+    background-color: #505050;
     color: white;
 }
 
 .bg-childGroups 
 {
-    background-color: #white;
+    background-color: white;
     min-height: 400px;
 }
 
 .bg-primary 
 {
-    background-color: black;
+    background-color: #505050;
 }
 .color-label
 {
