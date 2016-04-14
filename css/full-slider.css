@@ -46,6 +46,21 @@ footer {
     padding-top: 50px;
 }
 
+.comp-text
+{
+    line-height: 22px;
+}
+
+.comp-line
+{
+    border-top: 1px solid red; important! 
+}
+
+.instagram
+{
+    background-color: black;
+}
+
 .logo
 {
     max-width:140px;
@@ -75,23 +90,27 @@ footer {
 
 .bg-childGroups 
 {
-    background-color: #D0D0D0;
+    background-color: #white;
     min-height: 400px;
 }
 
 .bg-primary 
 {
-    background-color: #C0C0C0;
+    background-color: black;
+}
+.color-label
+{
+    color:red;
 }
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: red;
     border-width: 3px;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 1px solid #eee;
+    border-top: 1px solid red;
     height: 0;
 }
 
