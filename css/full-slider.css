@@ -95,7 +95,7 @@ footer {
 
 .bg-childGroups 
 {
-    background-color: white;
+    background-color: red;
     min-height: 400px;
 }
 
@@ -105,7 +105,12 @@ footer {
 }
 .color-label
 {
-    color:red;
+    color:white;
+}
+
+.color-info
+{
+    color: black;
 }
 
 hr {
