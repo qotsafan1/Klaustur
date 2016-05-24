@@ -71,5 +71,5 @@ function initializeClock(id, endtime) {
 var raceDeadline = "May 28 2016 12:00:00 GMT+0000";
 var registrationDeadline = "May 24 2016 00:00:00 GMT+0000";
 
-initializeClock('registrationClock', registrationDeadline);
+initializeClock('registrationClock', raceDeadline);
 initializeClock('raceClock', raceDeadline);
