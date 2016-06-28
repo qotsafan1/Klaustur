@@ -68,8 +68,8 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var raceDeadline = "May 28 2016 12:00:00 GMT+0000";
-var registrationDeadline = "May 24 2016 00:00:00 GMT+0000";
+var raceDeadline = "May 27 2017 12:00:00 GMT+0000";
+var registrationDeadline = "May 24 2017 00:00:00 GMT+0000";
 
 initializeClock('registrationClock', raceDeadline);
 initializeClock('raceClock', raceDeadline);
